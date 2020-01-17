@@ -16,8 +16,6 @@ Imagine the following list of processes in ready state:
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 Expected run time (msec) | 8 | 5 | 16 | 12 | 55 | 21 | 2 | 34
 
-Average: 19,125
-
 Turn Around Time: 72
 
 ---
@@ -27,8 +25,6 @@ How should a scheduler order these processes to minimize average turn around tim
 | Process |G |B | A | D | C | F | H | E |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 Expected run time (msec) | 2 | 5 | 8 | 12 | 16 | 21 | 34 | 55
-
-Average: 19,125
 
 Turn Around Time: 51,12
 
