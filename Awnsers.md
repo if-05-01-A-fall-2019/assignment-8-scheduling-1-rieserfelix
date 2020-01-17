@@ -5,6 +5,10 @@ When discussing "When to Schedule" in class, it was mentioned that sometimes sch
 
 Überlegen Sie eine Situation, in der das Scheduling eines Systems verbessert werden würde, wenn ein wichtiger Prozess, sobald dieser blockiert, eine Rolle bei der Auswahl des nächsten laufenden Prozesses spielen könnte.
 
+Preemptive: Process runs without interruption for a maximum of some fixed time.
+
+For example, any procces is in an endless loop, then the scheduler will call an other process after a certain time.
+
 2. **Minimizing Turn Around Time**
 Imagine the following list of processes in ready state:
 
